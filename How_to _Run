@@ -1,0 +1,24 @@
+How to run it to  check the intergrity of files within the system ...
+S1,..Generate Hash.
+Choose option 1
+Creates yourfile.ext.hash
+
+S2,..Modify File
+Open file
+Change anything
+Save
+
+S3,..check Integrity
+Choose option 2
+Script alerts you
+
+Output Examples are given below .
+No Change.
+File integrity verified. No changes detected.
+
+Modified
+WARNING! File has been modified!
+
+This tool uses SHA-256 hashing to generate a unique fingerprint of a file. Any modification changes the hash,.. allowing us to detect unauthorized tampering with file, 
+It is commonly used in intrusion detection and system security...
+
